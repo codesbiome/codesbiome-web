@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { hot } from 'react-hot-loader';
 import logo from '@assets/images/logo.png';
 import './Application.less';
 
@@ -26,4 +25,4 @@ const Application: React.FC<Props> = (props) => {
   );
 };
 
-export default hot(module)(Application);
+export default Application;
