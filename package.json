@@ -5,9 +5,6 @@
   "license": "MIT",
   "homepage": "https://codesbiome.com",
   "scripts": {
-    "pre:deploy": "pnpm build && cp CNAME dist/",
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist/",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -29,12 +26,10 @@
     "eslint-plugin-react": "^7.26.1",
     "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^6.3.4",
-    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.2",
     "less": "^4.1.2",
     "less-loader": "8.1.1",
     "mini-css-extract-plugin": "^1.6.2",
-    "react-hot-loader": "^4.13.0",
     "style-loader": "^2.0.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.4",
@@ -43,7 +38,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@hot-loader/react-dom": "^17.0.1",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
